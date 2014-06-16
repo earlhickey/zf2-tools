@@ -1,0 +1,23 @@
+{
+  "name" : "earlhickey/zf2-selligent",
+  "description" : "ZF2 module for Selligent Individual API",
+  "require" : {
+    "php" : ">=5.3.3",
+    "zendframework/zendframework" : "2.3.*",
+    "zf-commons/zfc-base" : "0.1.*"
+  },
+  "authors" : [ {
+    "name" : "Patrick Groot",
+    "email" : "pgroot@gmail.com",
+    "homepage" : "http://pg13.nl/"
+  } ],
+  "keywords" : [ "zf2" ],
+  "autoload" : {
+    "psr-0" : {
+      "Selligent" : "src/"
+    },
+    "classmap" : [ "./Module.php" ]
+  },
+  "type" : "library",
+  "homepage" : "https://github.com/earlhickey/zf2-selligent"
+}
